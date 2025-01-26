@@ -5,82 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sauharda Meher Shrestha - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
-    <header>
-        <div class="profile-container">
-            <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
-            <div>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
                 <h1>Sauharda Meher Shrestha</h1>
-                <p>Bachelor of Science in Computer Science | Minor in Applied Mathematics</p>
-                <p>
-                    <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
-
-                    <a href="mailto:sauhardameher@gmail.com" class="btn">Contact Me</a>
-                </p>
+                <p>Senior | Computer Science | Applied Mathematics</p>
+                <p>Solving complex problems, building intuitive designs, and leveraging AI for real-world impact.</p>
+                <a href="resume.pdf" class="btn" target="_blank">View Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a senior at Saint Cloud State University, pursuing a degree in Computer Science with a minor in Applied Mathematics. 
+                Passionate about creating innovative solutions and designing user-friendly experiences, I am skilled in Object-Oriented Programming, 
+                Machine Learning, and UI/UX design. Let’s build something incredible together!
+            </p>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a senior at Saint Cloud State University, pursuing a Bachelor’s degree in Computer Science 
-            with a minor in Applied Mathematics. With a passion for solving complex problems and creating innovative solutions, 
-            I am eager to contribute my skills as a Software Engineer.
-        </p>
-    </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">AWS</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Flask</div>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python | Java | C++ | SQL | R | C# | JavaScript | MATLAB</li>
-            <li>Operating Systems: Linux, Unix, MacOS, Windows, Android</li>
-            <li>Technologies: AWS, MongoDB, Docker, TensorFlow, Kubernetes, Jenkins, Git/GitHub</li>
-        </ul>
-    </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Product Traceability App</h3>
+                    <p>A Python-Tkinter solution for tracking product data in supply chains.</p>
+                </div>
+                <div class="project">
+                    <h3>GLTF to 3D Tiles App</h3>
+                    <p>React-based 3D mapping solution for immersive data visualization.</p>
+                </div>
+                <div class="project">
+                    <h3>Financial Planner</h3>
+                    <p>Flask application for tracking budgets, income, and expenses.</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div>
-            <h3>Data Analyst Intern</h3>
-            <p>SCSU Survey Research Center (May 2023 - Jan 2024)</p>
-            <ul>
-                <li>Utilized Python to analyze large datasets collected from surveys.</li>
-                <li>Developed and automated scripts for data pre-processing.</li>
-                <li>Applied Python libraries like Pandas and NumPy for data analysis.</li>
-            </ul>
-        </div>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <a href="mailto:sauhardameher@gmail.com" class="btn">Email Me</a>
+            <a href="https://linkedin.com/in/sauharda-meher-shrestha-8b500a212/" class="btn" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourgithub" class="btn" target="_blank">GitHub</a>
+        </section>
 
-    <section id="projects">
-        <h2>Notable Projects</h2>
-        <div>
-            <h3>Product Traceability App</h3>
-            <p>Developed a Python and Tkinter-based solution to manage product information through the supply chain.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sauhardameher@gmail.com">sauhardameher@gmail.com</a></p>
-        <p>Phone: +1 763-340-9386</p>
-        <p>
-            <a href="https://github.com/Sauharda1184" class="btn">GitHub</a>
-            <a href="https://linkedin.com/in/sauharda-meher-shrestha-8b500a212/" class="btn">LinkedIn</a>
-        </p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Sauharda Meher Shrestha</p>
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Sauharda Meher Shrestha</p>
+        </footer>
+    </div>
 </body>
 </html>
+
