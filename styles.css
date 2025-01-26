@@ -5,6 +5,12 @@ body, h1, h2, p, a {
     font-family: 'Arial', sans-serif;
 }
 
+/* Dark Theme Background */
+body {
+    background: #121212;
+    color: #e0e0e0;
+}
+
 /* Container Styling */
 .container {
     max-width: 1200px;
@@ -16,7 +22,7 @@ body, h1, h2, p, a {
 .hero {
     text-align: center;
     padding: 5rem 1rem;
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background: linear-gradient(135deg, #1c1c1e, #3a3a3c);
     color: #fff;
 }
 
@@ -24,24 +30,26 @@ body, h1, h2, p, a {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid #3a3a3c;
     margin-bottom: 1rem;
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    color: #bb86fc;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: #bdbdbd;
 }
 
 .hero .btn {
     padding: 0.8rem 1.5rem;
-    background: #ffdf00;
-    color: #333;
+    background: #bb86fc;
+    color: #121212;
     border: none;
     border-radius: 25px;
     text-decoration: none;
@@ -52,7 +60,7 @@ body, h1, h2, p, a {
 }
 
 .hero .btn:hover {
-    background: #ffc107;
+    background: #9b59d0;
     transform: translateY(-5px);
 }
 
@@ -64,7 +72,7 @@ section {
 
 section h2 {
     font-size: 2rem;
-    color: #007bff;
+    color: #bb86fc;
     margin-bottom: 1rem;
 }
 
@@ -78,10 +86,11 @@ section h2 {
 
 .skill-item {
     padding: 1rem 2rem;
-    background: #e9ecef;
+    background: #1e1e1e;
     border-radius: 5px;
     font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
 }
 
 /* Projects Section */
@@ -93,13 +102,14 @@ section h2 {
 }
 
 .project {
-    background: #f8f9fa;
-    border: 1px solid #dee2e6;
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
     border-radius: 8px;
     padding: 1.5rem;
     width: 300px;
     text-align: left;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: #bdbdbd;
 }
 
 /* Contact Section */
@@ -111,6 +121,17 @@ section h2 {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #343a40;
-    color: #fff;
+    background: #1c1c1e;
+    color: #e0e0e0;
+    border-top: 1px solid #2a2a2a;
+}
+
+/* Smooth Buttons */
+#contact .btn {
+    background: #bb86fc;
+    color: #121212;
+}
+
+#contact .btn:hover {
+    background: #9b59d0;
 }
