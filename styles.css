@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f8f9fa;
+    background: #f4f5f7;
     color: #333;
 }
 
@@ -17,6 +17,21 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 header h1 {
     font-size: 2.5rem;
     margin: 0;
@@ -27,16 +42,20 @@ header p {
     margin: 0.5rem 0 0;
 }
 
-nav a {
-    color: #fff;
-    margin: 0 1rem;
+.btn {
+    background: #ffdf00;
+    color: #333;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-nav a:hover {
-    color: #ffdf00;
+.btn:hover {
+    background: #ffc107;
+    transform: translateY(-3px);
 }
 
 /* Section Styles */
@@ -58,109 +77,10 @@ section h2 {
     padding-bottom: 0.5rem;
 }
 
-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-section ul li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    background: #e9ecef;
-    border-radius: 5px;
-}
-
-/* Experience and Projects */
-#experience div, #projects div {
-    margin-bottom: 2rem;
-}
-
-#experience h3, #projects h3 {
-    color: #6610f2;
-    margin: 0;
-}
-
-#experience p, #projects p {
-    font-style: italic;
-    color: #6c757d;
-}
-
-#experience ul li, #projects ul li {
-    background: none;
-    margin: 0.5rem 0;
-    padding: 0;
-}
-
-/* Contact Section */
-#contact a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#contact a:hover {
-    color: #6610f2;
-    text-decoration: underline;
-}
-
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
     background: #343a40;
     color: #fff;
-    margin-top: 2rem;
-}
-
-/* Button Styles */
-button {
-    display: inline-block;
-    padding: 0.8rem 1.2rem;
-    background: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
-}
-
-button:hover {
-    background: #6610f2;
-    transform: translateY(-3px);
-}
-
-/* Add Animations */
-section {
-    animation: fadeIn 1.2s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    nav a {
-        display: block;
-        margin: 0.5rem 0;
-    }
-
-    section {
-        padding: 2rem 1rem;
-    }
-
-    footer {
-        font-size: 0.9rem;
-    }
 }
