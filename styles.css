@@ -1,86 +1,116 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+/* General Reset */
+body, h1, h2, p, a {
     margin: 0;
     padding: 0;
-    background: #f4f5f7;
-    color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Header Styles */
-header {
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
     background: linear-gradient(135deg, #007bff, #6610f2);
     color: #fff;
-    padding: 2rem 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.profile-photo {
+.hero-content img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 4px solid #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
 }
 
-header h1 {
+.hero h1 {
     font-size: 2.5rem;
-    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
-header p {
+.hero p {
     font-size: 1.2rem;
-    margin: 0.5rem 0 0;
+    margin-bottom: 1rem;
 }
 
-.btn {
+.hero .btn {
+    padding: 0.8rem 1.5rem;
     background: #ffdf00;
     color: #333;
-    padding: 0.8rem 1.2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.btn:hover {
+.hero .btn:hover {
     background: #ffc107;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 /* Section Styles */
 section {
-    padding: 3rem 2rem;
-    margin: 2rem auto;
-    max-width: 1200px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3rem 1rem;
+    text-align: center;
 }
 
 section h2 {
     font-size: 2rem;
     color: #007bff;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #007bff;
-    display: inline-block;
-    padding-bottom: 0.5rem;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-item {
+    padding: 1rem 2rem;
+    background: #e9ecef;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact .btn {
+    margin: 0.5rem;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem;
     background: #343a40;
     color: #fff;
 }
