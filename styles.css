@@ -3,12 +3,15 @@ body, h1, h2, p, a {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Dark Theme Background */
 body {
-    background: #121212;
-    color: #e0e0e0;
+    background: #0B0C10; /* Primary dark background */
+    color: #C5C6C7; /* Light gray for text */
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 /* Container Styling */
@@ -22,34 +25,35 @@ body {
 .hero {
     text-align: center;
     padding: 5rem 1rem;
-    background: linear-gradient(135deg, #1c1c1e, #3a3a3c);
-    color: #fff;
+    background: #1F2833; /* Secondary dark background */
+    color: #C5C6C7;
+    border-bottom: 2px solid #66FCF1; /* Cyan border for separation */
 }
 
 .hero-content img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid #3a3a3c;
+    border: 4px solid #45A29E; /* Teal outline for profile photo */
     margin-bottom: 1rem;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: #bb86fc;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #66FCF1; /* Cyan for emphasis */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #bdbdbd;
+    color: #C5C6C7;
 }
 
 .hero .btn {
     padding: 0.8rem 1.5rem;
-    background: #bb86fc;
-    color: #121212;
+    background: #66FCF1; /* Vibrant cyan */
+    color: #0B0C10; /* Dark text for contrast */
     border: none;
     border-radius: 25px;
     text-decoration: none;
@@ -60,7 +64,7 @@ body {
 }
 
 .hero .btn:hover {
-    background: #9b59d0;
+    background: #45A29E; /* Softer teal for hover */
     transform: translateY(-5px);
 }
 
@@ -68,11 +72,15 @@ body {
 section {
     padding: 3rem 1rem;
     text-align: center;
+    background: #1F2833; /* Darker background for sections */
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 section h2 {
     font-size: 2rem;
-    color: #bb86fc;
+    color: #66FCF1; /* Cyan for section titles */
     margin-bottom: 1rem;
 }
 
@@ -86,11 +94,11 @@ section h2 {
 
 .skill-item {
     padding: 1rem 2rem;
-    background: #1e1e1e;
+    background: #292929; /* Slightly darker shade */
     border-radius: 5px;
     font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    color: #e0e0e0;
+    color: #C5C6C7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Projects Section */
@@ -102,36 +110,61 @@ section h2 {
 }
 
 .project {
-    background: #1e1e1e;
-    border: 1px solid #2a2a2a;
+    background: #1F2833;
+    border: 1px solid #45A29E;
     border-radius: 8px;
     padding: 1.5rem;
     width: 300px;
     text-align: left;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    color: #bdbdbd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #C5C6C7;
+}
+
+.project h3 {
+    color: #66FCF1; /* Cyan for project titles */
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    color: #C5C6C7;
 }
 
 /* Contact Section */
 #contact .btn {
-    margin: 0.5rem;
+    background: #66FCF1;
+    color: #0B0C10;
+}
+
+#contact .btn:hover {
+    background: #45A29E;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem;
-    background: #1c1c1e;
-    color: #e0e0e0;
-    border-top: 1px solid #2a2a2a;
+    background: #1F2833; /* Footer matches section background */
+    color: #C5C6C7;
+    border-top: 2px solid #66FCF1; /* Cyan border for separation */
 }
 
 /* Smooth Buttons */
 #contact .btn {
-    background: #bb86fc;
-    color: #121212;
+    background: #66FCF1;
+    color: #0B0C10;
 }
 
 #contact .btn:hover {
-    background: #9b59d0;
+    background: #45A29E;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .project {
+        width: 100%;
+    }
 }
