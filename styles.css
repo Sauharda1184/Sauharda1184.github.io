@@ -100,6 +100,31 @@ section p {
     margin-bottom: 1.5rem;
 }
 
+/* About Me Section */
+#about .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Stacks on smaller screens */
+    gap: 2rem;
+}
+
+#about .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the picture circular */
+    border: 4px solid #66FCF1; /* Cyan border for emphasis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#about p {
+    max-width: 600px;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #C5C6C7; /* Light gray text */
+    line-height: 1.8;
+}
+
 /* Skills Grid */
 .skills-grid {
     display: flex;
@@ -187,5 +212,14 @@ footer {
 
     section {
         padding: 2rem 1rem;
+    }
+
+    #about .about-container {
+        flex-direction: column; /* Stack image and text */
+    }
+
+    #about .profile-picture {
+        width: 120px;
+        height: 120px;
     }
 }
