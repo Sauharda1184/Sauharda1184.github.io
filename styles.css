@@ -42,42 +42,6 @@ body {
     color: #66FCF1; /* Cyan highlight for hover */
 }
 
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 5rem 1rem;
-    background: #1F2833; /* Darker slate */
-    color: #C5C6C7;
-}
-
-.hero-content h1 {
-    font-size: 4rem;
-    color: #66FCF1; /* Cyan title */
-    margin-bottom: 1rem;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.hero .btn {
-    padding: 0.8rem 1.5rem;
-    background: #66FCF1; /* Cyan */
-    color: #0B0C10; /* Dark text for contrast */
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0.5rem;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.hero .btn:hover {
-    background: #45A29E; /* Softer teal on hover */
-    transform: translateY(-5px);
-}
-
 /* Section Styles */
 section {
     padding: 3rem 1rem;
@@ -89,137 +53,74 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-section h1, section h2 {
+section h1 {
     font-size: 2rem;
     color: #66FCF1; /* Cyan for section titles */
     margin-bottom: 1rem;
 }
 
-section p {
-    color: #C5C6C7;
-    margin-bottom: 1.5rem;
-}
-
-/* About Me Section */
-#about .about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Stacks on smaller screens */
-    gap: 2rem;
-}
-
-#about .profile-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the picture circular */
-    border: 4px solid #66FCF1; /* Cyan border for emphasis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-}
-
-#about p {
-    max-width: 600px;
-    text-align: left;
-    font-size: 1.2rem;
-    color: #C5C6C7; /* Light gray text */
-    line-height: 1.8;
-}
-
-/* Skills Grid */
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.skill-item {
-    padding: 1rem 2rem;
-    background: #292929; /* Slightly darker background for cards */
-    color: #C5C6C7;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-}
-
-/* Projects Grid */
+/* Projects Section */
 .project-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     gap: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .project {
-    background: #1F2833; /* Secondary background */
+    background: #1F2833; /* Dark slate background for projects */
     border: 1px solid #45A29E; /* Teal border */
     border-radius: 8px;
     padding: 1.5rem;
-    width: 300px;
-    text-align: left;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     color: #C5C6C7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
 }
 
 .project h3 {
     color: #66FCF1; /* Cyan for project titles */
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.project p {
-    color: #C5C6C7;
+.project ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
 }
 
-/* Contact Section */
-#contact .btn {
-    background: #66FCF1;
-    color: #0B0C10;
+.project p, .project li {
+    line-height: 1.6;
+}
+
+/* Project Link Button */
+.btn-project {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #66FCF1; /* Cyan */
+    color: #0B0C10; /* Dark text for contrast */
     text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
     font-weight: bold;
-    transition: background 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-#contact .btn:hover {
-    background: #45A29E;
-    transform: translateY(-5px);
+.btn-project:hover {
+    background: #45A29E; /* Teal hover effect */
+    transform: translateY(-3px);
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem;
-    background: #1F2833; /* Footer matches section background */
+    background: #1F2833;
     color: #C5C6C7;
     border-top: 2px solid #66FCF1;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .nav ul {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .hero-content h1 {
-        font-size: 3rem;
-    }
-
-    .project {
-        width: 100%;
-    }
-
-    section {
-        padding: 2rem 1rem;
-    }
-
-    #about .about-container {
-        flex-direction: column; /* Stack image and text */
-    }
-
-    #about .profile-picture {
-        width: 120px;
-        height: 120px;
-    }
 }
