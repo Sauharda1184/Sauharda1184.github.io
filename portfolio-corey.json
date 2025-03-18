@@ -1,80 +1,70 @@
 {
-  "name": "Corey Schafer",
-  "label": "Software Engineer",
+  "name": "Sauharda Meher Shrestha",
+  "label": "Data Analyst Intern",
   "image_path": "portfolio_media/profile.jpg",
   "contact": {
-    "email": "CoreyMSchafer@gmail.com",
-    "phone": "",
-    "location": "Charleston, WV"
+    "email": "sauhardameher@gmail.com",
+    "phone": "7633409386",
+    "location": "Saint Cloud, MN"
   },
-  "summary": "Programming educator on YouTube. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.",
+  "summary": "Data Analyst Intern at Hennepin County. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.",
   "url": "https://coreyms.com",
   "social_links": [
+    
     {
-      "label": "Coreyms.com",
-      "url": "https://coreyms.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://youtube.com/c/coreyms",
-      "svg_path": "img/youtube.svg"
-    },
-    {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/coreymschafer",
-      "svg_path": "img/instagram.svg"
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sauharda-meher-shrestha-8b500a212/",
+      "svg_path": "img/LinkedIn.svg"
     },
     {
       "label": "Github",
-      "url": "https://github.com/CoreyMSchafer",
+      "url": "https://github.com/Sauharda1184",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "LASP (Labratory for Atmospheric and Space Physics)",
-      "position": "Software Engineer",
+      "company": "Hennepin County - Transportation and Public Works Department",
+      "position": "Data Analyst Intern",
       "url": "https://lasp.colorado.edu/",
-      "start_date": "2015",
-      "end_date": "2019",
+      "start_date": "2025",
+      "end_date": "Present",
       "summary": "",
       "highlights": [
-        "Created and maintained back-end API services using Flask.",
-        "Created system administration scripts using Python to automate the processing and deployment of mission-critical data.",
-        "Tasked with migrating in-house data pipelines to a cloud-based solution using AWS."
+        " Analyze traffic data using Python, R, SQL and statistical techniques to identify trends in turning movements, signal operations, and lane usage. Utilize ArcGIS and Synchro for geospatial and simulation-based analysis.",
+        "Develop Python scripts to clean, process, and visualize large datasets, improving efficiency in traffic studies.",
+        "Assist in troubleshooting computer and network issues in coordination with IT. Support engineering projects by collecting intersection measurements, performing geometric calculations, and documenting findings through sketches and reports."
       ]
     },
     {
-      "company": "WVU GIS Technical Center",
-      "position": "Software Engineer",
+      "company": "SCSU Survey Research Center",
+      "position": "Data Analyst Intern",
       "url": "https://wvgis.wvu.edu/",
-      "start_date": "2012",
-      "end_date": "2015",
+      "start_date": "2022",
+      "end_date": "2024",
       "summary": "",
       "highlights": [
-        "Developed and designed GIS web applications with the ArcGIS JavaScript API",
-        "Wrote and published geoprocessing services using Python and ArcPy",
-        "Created backend user authentication systems with PHP and MySQL"
+        "Utilized Python to analyze large datasets collected from surveys, applying statistical methods and data cleaning techniques to ensure high data quality.",
+        "Developed and automated scripts for data pre-processing, including handling missing data and outlier detection.",
+        "Applied Python libraries such as Pandas and NumPy for efficient data manipulation and analysis of trends."
       ]
     },
     {
-      "company": "MATRIC (Mid-Atlantic Technology, Research, and Innovation Center)",
-      "position": "Software Engineer",
+      "company": "Husky Tech at Saint Cloud State University",
+      "position": "IT Support Specialist",
       "url": "https://www.matricinnovates.com/",
       "start_date": "2010",
       "end_date": "2011",
       "summary": "",
       "highlights": [
-        "Created GIS web applications with ActionScript and the ArcGIS API for Flex.",
-        "Developed custom widgets for routing, wind data visualization, and simulations.",
-        "Wrote and maintained SQL-based queries to efficiently retrieve and analyze data from GIS REST services."
+        "Managed encryption of customer data to ensure compliance with university security policies, implemented security compliance automation using Python scripts, reducing manual effort and enhancing data encryption.",
+        "Developed and maintained IT operations solutions, significantly improving software deployment."
       ]
     }
   ],
   "projects": [
     {
-      "title": "Educational Content Creator on YouTube",
+      "title": "AI-Powered Resume and Cover Letter Generator",
       "summary": "Channel focused on creating tutorials and walkthroughs for software developers, programmers, and engineers.",
       "url": "https://youtube.com/c/coreyms",
       "highlights": ["Over 1 million subscribers", "Over 100 million views"],
