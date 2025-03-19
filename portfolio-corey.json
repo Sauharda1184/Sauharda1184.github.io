@@ -67,18 +67,17 @@
       "title": "AI-Powered Resume and Cover Letter Generator",
       "summary": "An application that generates tailored resumes and cover letters based on a user's job description and past experience. It allows users to select resume templates, customize sections, and export their resumes in PDF format.",
       "url": "https://github.com/Sauharda1184/resume-cover-letter-AI",
-      "highlights": ["Over 1 million subscribers", "Over 100 million views"],
       "images": [
         {
-          "img_path": "portfolio_media/yt1.png",
+          "img_path": "portfolio_media/home.png",
           "caption": "Home Page"
         },
         {
-          "img_path": "portfolio_media/yt2.png",
+          "img_path": "portfolio_media/resume.png",
           "caption": "Resume generator"
         },
         {
-          "img_path": "portfolio_media/yt3.png",
+          "img_path": "portfolio_media/coverLetter.png",
           "caption": "Cover Letter Generator"
         }
       ]
