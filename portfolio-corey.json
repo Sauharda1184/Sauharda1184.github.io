@@ -7,7 +7,7 @@
     "phone": "7633409386",
     "location": "Saint Cloud, MN"
   },
-  "summary": "Data Analyst Intern at Hennepin County. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.",
+  "summary": "Computer Science Senior at Saint Cloud State University. Seeking to apply my skills in machine learning and software development to build scalable and efficient systems.",
   "url": "https://coreyms.com",
   "social_links": [
     
@@ -65,62 +65,61 @@
   "projects": [
     {
       "title": "AI-Powered Resume and Cover Letter Generator",
-      "summary": "Channel focused on creating tutorials and walkthroughs for software developers, programmers, and engineers.",
-      "url": "https://youtube.com/c/coreyms",
+      "summary": "An application that generates tailored resumes and cover letters based on a user's job description and past experience. It allows users to select resume templates, customize sections, and export their resumes in PDF format.",
+      "url": "https://github.com/Sauharda1184/resume-cover-letter-AI",
       "highlights": ["Over 1 million subscribers", "Over 100 million views"],
       "images": [
         {
           "img_path": "portfolio_media/yt1.png",
-          "caption": "Main Channel"
+          "caption": "Home Page"
         },
         {
           "img_path": "portfolio_media/yt2.png",
-          "caption": "Tutorials"
+          "caption": "Resume generator"
         },
         {
           "img_path": "portfolio_media/yt3.png",
-          "caption": "Live Streams"
+          "caption": "Cover Letter Generator"
         }
       ]
     }
   ],
   "volunteer_experience": [
     {
-      "organization": "Heritage Point Assisted Living",
-      "position": "Computer Assistance",
-      "url": "https://www.heritage-point.com/",
-      "start_date": "2012",
-      "end_date": "2015",
-      "summary": "Helped residents with any computer problems for two hours each week. Mainly helped with networking, typing, basic instruction, and troubleshooting.",
+      "organization": "SCSU Residential Life",
+      "position": "Resident Assistant",
+      "url": "https://www.stcloudstate.edu/reslife/",
+      "start_date": "2023",
+      "end_date": "2025",
+      "summary": "Work towards community development by organizing programs to meet the needs of residents.Connect residents to other campus activities and create an inclusive environment for the residents",
       "highlights": []
     },
     {
-      "organization": "Marshall University",
-      "position": "Student Ambassador",
-      "url": "https://marshall.edu",
-      "start_date": "2007",
-      "end_date": "2008",
-      "summary": "Gave campus tours, organized promotional events, and ran summer orientation.",
+      "organization": "Nepalese Student Association",
+      "position": "Web Developer",
+      "start_date": "2023",
+      "end_date": "2024",
+      "summary": "Developed a web application using C-Sharp and ASP.NET, implementing a robust backend with API integrations to support dynamic content updates and automate routine tasks.",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "Marshall University",
-      "location": "Hungington, WV, USA",
-      "url": "https://marshall.edu",
+      "institution": "Saint Cloud State University",
+      "location": "Saint Cloud, MN, USA",
+      "url": "https://www.stcloudstate.edu",
       "degrees": [
         "Bachelor of Science in Computer Science",
-        "Minor in Mathematics"
+        "Minor in Applied Mathematics"
       ],
       "honors": [
-        "2010 Outstanding Student Award",
-        "2005 R.L. “Buck” Woodall Student-Athlete scholarship",
-        "Placed in a District ACM ICPC Team Programming Contest"
+        "2021 Internation Student Scholarship",
+        "2023 Dean's List",
+        "Won first place in 2024 Huskies Invent sponsored by Thermo-Tech"
       ],
-      "gpa_cumulative": "3.29",
-      "gpa_major": "3.93",
-      "graduation_date": "2010"
+      "gpa_cumulative": "3.5",
+      "gpa_major": "3.6",
+      "graduation_date": "2025"
     }
   ],
   "skills": [
@@ -142,16 +141,16 @@
   ],
   "interests": [
     {
-      "name": "Woodworking",
+      "name": "Competing in Hackathons and Invent-a-thons",
       "summary": "",
       "images": [
         {
           "img_path": "portfolio_media/ww1.jpg",
-          "caption": "Chess Board made from Walnut and Maple"
+          "caption": "Won first place in 2024 Huskies Invent sponsored by Thermo-Tech"
         },
         {
           "img_path": "portfolio_media/ww2.jpg",
-          "caption": "Wooden Necklace from Walnut Scrap"
+          "caption": "Won third place in 2024 Hackathon sponsored by Immersion Data Solutions"
         }
       ]
     }
