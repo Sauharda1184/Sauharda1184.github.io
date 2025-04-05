@@ -64,23 +64,49 @@
   ],
   "projects": [
     {
-      "title": "AI-Powered Resume and Cover Letter Generator",
-      "summary": "An application that generates tailored resumes and cover letters based on a user's job description and past experience. It allows users to select resume templates, customize sections, and export their resumes in PDF format.",
-      "url": "https://github.com/Sauharda1184/resume-cover-letter-AI",
-      "images": [
-        {
-          "img_path": "portfolio_media/home.png",
-          "caption": "Home Page"
-        },
-        {
-          "img_path": "portfolio_media/resume.png",
-          "caption": "Resume generator"
-        },
-        {
-          "img_path": "portfolio_media/coverLetter.png",
-          "caption": "Cover Letter Generator"
-        }
-      ]
+      "title": "Product Traceability App",
+      "summary": "Huskies Invent | Thermo-Tech Saint Cloud, MN",
+      "url": "https://github.com/Sauharda1184/product-traceability-app",
+      "highlights": [
+        "Developed a product traceability solution for Thermo-Tech using Python-Tkinter and SQLite to track and manage product information through the supply chain.",
+        "Designed an intuitive GUI with Tkinter, allowing users to enter, update and retrieve product data efficiently.",
+        "Containerized the GUI application using Docker and implemented Kubernetes for container orchestration, enabling automatic scaling and efficient management of workloads."
+      ],
+      "start_date": "Dec 2023",
+      "end_date": "April 2024"
+    },
+    {
+      "title": "GLTF to 3D Tiles Generating App",
+      "summary": "Huskies Hackathon | Immersion Data Solutions Saint Cloud, MN",
+      "url": "https://github.com/Sauharda1184/gltf-3d-tiles-converter",
+      "highlights": [
+        "Utilized React, deck.gl, react-map-gl, and Mapbox to create an interactive 3D visualization interface. Worked on transforming IDS's 2D mapping experience into a 3D mapping solution by efficiently loading and visualizing large 3D datasets.",
+        "Implemented GLTF to 3D Tiles conversion with an open-source processing pipeline, ensuring cost-effective and customizable 3D data rendering."
+      ],
+      "start_date": "Jan 2023",
+      "end_date": "Dec 2023"
+    },
+    {
+      "title": "Warehouse Management System",
+      "summary": "OOP PROJECT | JAVA Saint Cloud, MN",
+      "url": "https://github.com/Sauharda1184/warehouse-management-system",
+      "highlights": [
+        "Implemented a Warehouse System using Java, OOP and SOLID design principles to ensure a modular, scalable, and maintainable system.",
+        "Set up a CI/CD pipeline using Jenkins, automating build processes, running unit tests, and deploying stable versions of the application."
+      ],
+      "start_date": "Sept 2024",
+      "end_date": "Jan 2025"
+    },
+    {
+      "title": "Panoramic POI System",
+      "summary": "Huskies Hack | Immersion Data Solutions Saint Cloud, MN",
+      "url": "https://github.com/Sauharda1184/panoramic-poi-system",
+      "highlights": [
+        "Developed an interactive Point of Interest (POI) feature for a 360° panoramic digital twin platform, enabling users to add, edit, and visualize interactive markers within the scene.",
+        "Built a React-based UI for managing POIs, integrating KRPano for panoramic rendering and Flask for backend data persistence."
+      ],
+      "start_date": "Feb 2025",
+      "end_date": "Present"
     }
   ],
   "volunteer_experience": [
@@ -108,17 +134,17 @@
       "location": "Saint Cloud, MN, USA",
       "url": "https://www.stcloudstate.edu",
       "degrees": [
-        "Bachelor of Science in Computer Science",
-        "Minor in Applied Mathematics"
+        "Bachelor's of Science in Computer Science with a minor in Applied Mathematics"
       ],
+      "start_date": "Aug 2021",
+      "end_date": "Dec 2025",
       "honors": [
         "2021 Internation Student Scholarship",
         "2023 Dean's List",
         "Won first place in 2024 Huskies Invent sponsored by Thermo-Tech"
       ],
       "gpa_cumulative": "3.5",
-      "gpa_major": "3.6",
-      "graduation_date": "2025"
+      "gpa_major": "3.6"
     }
   ],
   "skills": [
