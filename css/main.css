@@ -586,8 +586,8 @@ blockquote {
 
 .interest-image {
   position: relative;
-  border-radius: var(--radius-md);
   overflow: hidden;
+  border-radius: var(--radius-md);
   box-shadow: var(--card-shadow);
 }
 
@@ -596,6 +596,8 @@ blockquote {
   height: auto;
   display: block;
   transition: transform var(--transition-normal);
+  object-fit: cover;
+  aspect-ratio: 16/9;
 }
 
 .interest-image:hover img {
@@ -611,7 +613,6 @@ blockquote {
   color: white;
   padding: var(--spacing-sm);
   margin: 0;
-  font-size: 0.9rem;
   transform: translateY(100%);
   transition: transform var(--transition-normal);
 }
@@ -714,8 +715,8 @@ blockquote {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: var(--spacing-md);
     border: 4px solid var(--primary-color);
+    margin-bottom: var(--spacing-md);
     box-shadow: var(--card-shadow);
 }
 
@@ -854,4 +855,92 @@ blockquote {
     body {
         font-size: 12pt;
     }
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.education-card .location {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.education-card .honors {
+  margin-top: var(--spacing-sm);
+}
+
+.education-card .honors h5 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.education-card .honors ul {
+  list-style-type: none;
+  padding-left: var(--spacing-sm);
+}
+
+.education-card .honors li {
+  position: relative;
+  padding-left: var(--spacing-md);
+}
+
+.education-card .honors li::before {
+  content: "🏆";
+  position: absolute;
+  left: 0;
+}
+
+.education-card .gpa {
+  margin-top: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--bg-secondary);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.skill-bar {
+  height: 8px;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transition: width var(--transition-normal);
+}
+
+.skill-level {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.volunteer-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.volunteer-card .summary {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .education-card .honors li {
+    padding-left: var(--spacing-md);
+  }
+  
+  .skill-card {
+    gap: var(--spacing-xs);
+  }
 }
